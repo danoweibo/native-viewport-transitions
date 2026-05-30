@@ -9,7 +9,8 @@
 @theme inline {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
-	--font-averta: "Averta", sans-serif;
+	--font-jakarta: "Plus Jakarta Sans", sans-serif;
+	--font-tiktok: "TikTok Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
