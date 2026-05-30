@@ -2,98 +2,102 @@
 
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-extralight.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-extralight.woff2") format("woff2");
 	font-weight: 200;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-extralight-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-extralight-italic.woff2")
+		format("woff2");
 	font-weight: 200;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-light.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-light.woff2") format("woff2");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-light-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-light-italic.woff2") format("woff2");
 	font-weight: 300;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-regular.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-italic.woff2") format("woff2");
 	font-weight: 400;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-medium.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-medium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-medium-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-medium-italic.woff2")
+		format("woff2");
 	font-weight: 500;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-semibold.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-semibold.woff2") format("woff2");
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-semibold-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-semibold-italic.woff2")
+		format("woff2");
 	font-weight: 600;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-bold.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-bold-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-bold-italic.woff2") format("woff2");
 	font-weight: 700;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-extrabold.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-extrabold.woff2") format("woff2");
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/plusjakartasans-extrabold-italic.woff2") format("woff2");
+	src: url("../assets/fonts/plusjakartasans-extrabold-italic.woff2")
+		format("woff2");
 	font-weight: 800;
 	font-style: italic;
 	font-display: swap;
@@ -102,49 +106,49 @@
 /* ─── Tiktok Sans ─────────────────────────────────────────────────────────────── */
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-light.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-light.woff2") format("woff2");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-regular.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-medium.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-medium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-semibold.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-semibold.woff2") format("woff2");
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-bold.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-extrabold.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-extrabold.woff2") format("woff2");
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "TikTok Sans";
-	src: url("/fonts/tiktoksans-black.woff2") format("woff2");
+	src: url("../assets/fonts/tiktoksans-black.woff2") format("woff2");
 	font-weight: 900;
 	font-style: normal;
 	font-display: swap;
