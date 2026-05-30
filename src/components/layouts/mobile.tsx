@@ -1,8 +1,8 @@
-import { cn } from "@ticketmaster/ui/lib/utils";
 import { useMediaQuery } from "react-responsive";
 import { useOrientation } from "react-use";
 import { usePlatform } from "@/contexts/platform";
 import { useHydration } from "@/hooks/hydration";
+import { cn } from "@/lib/utils";
 import RotateIcon from "../icons/rotate";
 
 export default function MobileView({
