@@ -99,57 +99,5 @@
 	src: url("../assets/fonts/plusjakartasans-extrabold-italic.woff2")
 		format("woff2");
 	font-weight: 800;
-	font-style: italic;
-	font-display: swap;
-}
-
-/* ─── Tiktok Sans ─────────────────────────────────────────────────────────────── */
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-light.woff2") format("woff2");
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-regular.woff2") format("woff2");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-medium.woff2") format("woff2");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-semibold.woff2") format("woff2");
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-bold.woff2") format("woff2");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-extrabold.woff2") format("woff2");
-	font-weight: 800;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "TikTok Sans";
-	src: url("../assets/fonts/tiktoksans-black.woff2") format("woff2");
-	font-weight: 900;
-	font-style: normal;
 	font-display: swap;
 }
