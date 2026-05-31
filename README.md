@@ -23,7 +23,7 @@ Every transition in this demo is implemented purely in React using [Motion](http
 | `rise` | Incoming page rises from 60% of the screen with a fade, previous page pulls back. Android Material You style. |
 | `fall` | Current page pulls down 15vh and disappears, incoming page drops subtly into place. |
 | `flash` | Quick cross-fade between pages. Clean and fast. |
-| `card` | Incoming page slides up as a card stopping at 3% from the top, previous page scales down and gets rounded behind it. iOS sheet presentation. |
+| `card` | Incoming page slides up as a card stopping at 3% from the top, previous page scales down and gets rounded behind it. The iOS sheet presentation effect. |
 
 All transitions support a `reverse` direction for backward navigation.
 
