@@ -31,7 +31,7 @@ All transitions support a `reverse` direction for backward navigation.
 
 ## How it works
 
-The core idea is to take routing out of the framework's hands and give it to a `TransitionManager` component that holds both the previous and current page in state simultaneously — so both are mounted and visible during the animation.
+The core idea is to replicate the routing of native platforms and give it to a `TransitionManager` component that holds both the previous and current page in state simultaneously — so both are mounted and visible during the animation.
 
 ```
 navigate("/next")
