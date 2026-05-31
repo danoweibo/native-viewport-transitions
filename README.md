@@ -66,7 +66,7 @@ A Zustand store holds the current transition effect and a lock that prevents nav
 ## Running locally
 
 ```bash
-git clone https://github.com/yourusername/native-viewport-transitions
+git clone https://github.com/danoweibo/native-viewport-transitions
 cd native-viewport-transitions
 pnpm install
 pnpm dev
