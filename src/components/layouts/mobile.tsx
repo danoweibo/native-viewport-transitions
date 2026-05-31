@@ -1,9 +1,9 @@
 import { useMediaQuery } from "react-responsive";
 import { useOrientation } from "react-use";
+import RotateIcon from "@/components/icons/rotate";
 import { usePlatform } from "@/contexts/platform";
 import { useHydration } from "@/hooks/hydration";
 import { cn } from "@/lib/utils";
-import RotateIcon from "../icons/rotate";
 
 export default function MobileView({
 	children,
