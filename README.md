@@ -25,7 +25,7 @@ Every transition in this demo is implemented purely in React using [Motion](http
 | `flash` | Quick cross-fade between pages. Clean and fast. |
 | `card` | Incoming page slides up as a card stopping at 3% from the top, previous page scales down and gets rounded behind it. iOS sheet presentation. |
 
-All transitions support a `reverse` direction for back navigation.
+All transitions support a `reverse` direction for backward navigation.
 
 ---
 
