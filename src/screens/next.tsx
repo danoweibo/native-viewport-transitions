@@ -1,12 +1,34 @@
+/** biome-ignore-all lint/a11y/noLabelWithoutControl: <explanation> */
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTransitionStore } from "@/contexts/transitions";
+
+type EffectType =
+	| "stack"
+	| "push"
+	| "rise"
+	| "fall"
+	| "flash"
+	| "card"
+	| "none";
+
+const effects: { id: EffectType; label: string }[] = [
+	{ id: "stack", label: "Stack" },
+	{ id: "push", label: "Push" },
+	{ id: "rise", label: "Rise" },
+	{ id: "fall", label: "Fall" },
+	{ id: "flash", label: "Flash" },
+	{ id: "card", label: "Card" },
+	{ id: "none", label: "None" },
+];
 
 export default function NextTransitionScreen() {
 	const navigate = useNavigate();
 	const { setTransition } = useTransitionStore();
+	const [selected, setSelected] = useState<EffectType>("card");
 
 	const back = () => {
-		setTransition({ effect: "card", reverse: true });
+		setTransition({ effect: selected, reverse: true });
 		navigate(-1);
 	};
 
@@ -30,8 +52,32 @@ export default function NextTransitionScreen() {
 				</h1>
 
 				<p className="text-center text-sm text-white/40 leading-relaxed">
-					The transition worked. Head back to try another effect.
+					Pick a transition, then head back.
 				</p>
+
+				{/* Dropdown */}
+				<div className="w-full">
+					<label className="mb-2 block text-white/30 text-xs uppercase tracking-widest">
+						Back Transition
+					</label>
+					<div className="relative">
+						<select
+							value={selected}
+							onChange={(e) => setSelected(e.target.value as EffectType)}
+							className="w-full cursor-pointer appearance-none rounded-xl border border-white/10 bg-white/8 px-4 py-3 text-sm text-white/80 outline-none transition-all duration-200 hover:border-white/20 focus:border-sky-400/50 focus:ring-1 focus:ring-sky-400/30"
+						>
+							{effects.map(({ id, label }) => (
+								<option key={id} value={id} className="bg-[#0f1220] text-white">
+									{label}
+								</option>
+							))}
+						</select>
+						{/* Custom arrow */}
+						<span className="pointer-events-none absolute top-1/2 right-4 -translate-y-1/2 text-white/30 text-xs">
+							▾
+						</span>
+					</div>
+				</div>
 
 				<button
 					type="button"
