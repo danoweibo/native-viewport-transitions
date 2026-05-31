@@ -44,7 +44,7 @@ export default function NextTransitionScreen() {
 			<div className="relative z-10 flex w-[320px] flex-col items-center gap-6 rounded-3xl border border-white/10 bg-white/5 p-10 shadow-[0_8px_64px_rgba(0,0,0,0.5)] backdrop-blur-2xl">
 				{/* Badge */}
 				<span className="rounded-full border border-sky-400/30 bg-sky-400/10 px-3 py-1 text-sky-300 text-xs uppercase tracking-widest">
-					Test Page
+					Test Route
 				</span>
 
 				<h1 className="font-semibold text-3xl text-white tracking-tight">
