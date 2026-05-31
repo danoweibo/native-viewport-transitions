@@ -1,11 +1,10 @@
 import type { ComponentType } from "react";
-import Ticketmaster from "@/screens/index";
-import AnimationTestScreen from "@/screens/test";
+import CurrentTransitionScreen from "@/screens/index";
+import NextTransitionScreen from "@/screens/next";
 
 export const routes: Record<string, ComponentType> = {
-	"/": Ticketmaster,
-	/* ONBOARDING */
-	"/test": AnimationTestScreen,
+	"/": CurrentTransitionScreen,
+	"/next": NextTransitionScreen,
 };
 
 export function matchRoute(pathname: string) {

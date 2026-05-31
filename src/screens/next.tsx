@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useTransitionStore } from "@/contexts/transitions";
 
-export default function AnimationTestScreen() {
+export default function NextTransitionScreen() {
 	const navigate = useNavigate();
 	const { setTransition } = useTransitionStore();
 

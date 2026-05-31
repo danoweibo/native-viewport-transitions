@@ -10,13 +10,13 @@ type EffectType =
 	| "card"
 	| "none";
 
-export default function AnimationInitScreen() {
+export default function CurrentTransitionScreen() {
 	const navigate = useNavigate();
 	const { setTransition } = useTransitionStore();
 
 	const go = (effect: EffectType) => {
 		setTransition({ effect });
-		navigate("/test");
+		navigate("/next");
 	};
 
 	return (
