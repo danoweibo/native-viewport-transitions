@@ -36,7 +36,7 @@ The core idea is to replicate the routing of native platforms and give it to a `
 ```
 navigate("/next")
     ↓
-setTransition({ effect: "stack" })   // set before navigating
+setTransition({ effect: "stack" })   // set before navigating, ex: stack.
     ↓
 TransitionManager detects route change
     ↓
