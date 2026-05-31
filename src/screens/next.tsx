@@ -1,4 +1,4 @@
-/** biome-ignore-all lint/a11y/noLabelWithoutControl: <explanation> */
+/** biome-ignore-all lint/a11y/noLabelWithoutControl: select declared replacing input. */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTransitionStore } from "@/contexts/transitions";
@@ -37,7 +37,7 @@ export default function NextTransitionScreen() {
 			{/* Ambient blobs */}
 			<div className="pointer-events-none absolute inset-0">
 				<div className="absolute top-[-10%] right-[10%] h-[400px] w-[400px] rounded-full bg-sky-500/20 blur-[120px]" />
-				<div className="absolute bottom-[0%] left-[5%] h-[320px] w-[320px] rounded-full bg-indigo-500/15 blur-[100px]" />
+				<div className="absolute bottom-[0%] left-[5%] h-80 w-[320px] rounded-full bg-indigo-500/15 blur-[100px]" />
 			</div>
 
 			{/* Glass card */}

@@ -43,7 +43,7 @@ export default function CurrentTransitionScreen() {
 				{/* Header */}
 				<div className="mb-4 text-center">
 					<p className="text-white/30 text-xs uppercase tracking-[0.25em]">
-						Transition Lab
+						Native Viewport Transitions
 					</p>
 					<h1 className="mt-1 font-semibold text-2xl text-white tracking-tight">
 						Choose Effect
