@@ -25,8 +25,6 @@ function ThemeColorMeta() {
 }
 
 function AppContent() {
-	usePlatformDetect();
-
 	return (
 		<>
 			<ThemeColorMeta />
