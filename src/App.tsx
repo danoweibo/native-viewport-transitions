@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import MobileView from "@/components/layouts/mobile";
 import TransitionManager from "@/components/transitions";
-import { usePlatformDetect } from "@/hooks/platform";
 
 function ThemeColorMeta() {
 	const { resolvedTheme } = useTheme();
